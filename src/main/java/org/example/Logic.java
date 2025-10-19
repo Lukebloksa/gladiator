@@ -95,7 +95,7 @@ public class Logic {
                 return sc.nextInt();
             } catch (InputMismatchException e) {
                 System.out.println("Invalid input, please enter a number.");
-                sc.nextLine(); // consume invalid token
+                sc.nextLine();
             }
         }
     }
